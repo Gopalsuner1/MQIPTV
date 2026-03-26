@@ -6,14 +6,20 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "vite start",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mui/icons-material": "^7.3.9",
     "@reduxjs/toolkit": "^2.9.2",
     "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.1.14",
+    "@tanstack/react-query": "^5.90.10",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.1",
     "animejs": "^4.2.2",
+    "axios": "^1.13.2",
     "lottie-react": "^2.4.1",
     "lucide-react": "^0.548.0",
     "react": "^19.1.1",
@@ -22,12 +28,13 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.9.4",
     "react-scroll": "^1.9.3",
-    "tailwindcss": "^4.1.14"
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.0.4",
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
