@@ -19,7 +19,8 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^24.10.1",
     "animejs": "^4.2.2",
-    "axios": "^1.13.2",
+    "axios": "^1.14.0",
+    "hls.js": "^1.6.15",
     "lottie-react": "^2.4.1",
     "lucide-react": "^0.548.0",
     "react": "^19.1.1",
@@ -41,5 +42,18 @@
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
     "vite": "^7.1.7"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gopalsuner1/MQIPTV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gopalsuner1/MQIPTV/issues"
+  },
+  "homepage": "https://github.com/Gopalsuner1/MQIPTV#readme"
 }
